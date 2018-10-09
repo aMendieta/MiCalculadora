@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/tilInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/etInput"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/calc.input.height"
+            android:hint="@string/calc.int.input"
+            android:gravity="end|center_vertical"
+            android:inputType="none"
+            android:textIsSelectable="true"
+            android:maxLength="16"
+            android:drawablePadding="16dp"
+            android:drawableEnd="@drawable/ic_backspace_black_36dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Mi Calculadora</string>
+    <string name="calc.int.input">introduce tu tranzacción</string>
+</resources>
